@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/10/30 20:30:03.000.997,=C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2019/10/30 20:47:17.000.742,=C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2019/10/30 20:49:36.000.908,=C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2019/10/30 20:50:05.000.241,C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\trabalho.dfm=C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Unit3.dfm</Transaction>
+    <Transaction>2019/10/30 20:50:05.000.241,C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\trabalho.pas=C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2019/10/30 20:52:32.000.722,=C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2019/10/30 20:55:40.000.086,C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\Unit4.pas=C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2019/10/30 20:55:40.000.086,C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\Unit4.dfm=C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Unit4.dfm</Transaction>
+    <Transaction>2019/10/30 20:55:43.000.472,C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\Project1.dproj=C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2019/10/30 21:04:11.000.246,=C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\Unit1.pas</Transaction>
+    <Transaction>2019/10/30 21:24:12.000.402,=C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\Unit1.pas</Transaction>
+    <Transaction>2019/10/30 21:32:18.000.879,=C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\Unit2.pas</Transaction>
+    <Transaction>2019/10/30 21:51:10.000.386,=C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\Unit5.pas</Transaction>
+    <Transaction>2019/10/30 22:00:01.000.441,C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\Unit5.pas=C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\componentes.pas</Transaction>
+    <Transaction>2019/10/30 22:00:01.000.441,C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\Unit5.dfm=C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\componentes.dfm</Transaction>
+    <Transaction>2019/10/30 22:00:09.000.962,=C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\Unit6.pas</Transaction>
+    <Transaction>2019/10/30 22:02:16.000.539,C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\Unit6.pas=C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\Arquivos.pas</Transaction>
+    <Transaction>2019/10/30 22:02:16.000.539,C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\Unit6.dfm=C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\Arquivos.dfm</Transaction>
+    <Transaction>2019/10/30 22:03:18.000.279,=C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\Unit7.pas</Transaction>
+    <Transaction>2019/10/30 22:12:18.000.283,C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\Unit7.dfm=C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\Biblioteca.dfm</Transaction>
+    <Transaction>2019/10/30 22:12:18.000.283,C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\Unit7.pas=C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\Biblioteca.pas</Transaction>
+    <Transaction>2019/10/31 14:46:22.000.646,=C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\Unit8.pas</Transaction>
+    <Transaction>2019/10/31 15:04:55.000.641,C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\Unit8.dfm=C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\concorrentes.dfm</Transaction>
+    <Transaction>2019/10/31 15:04:55.000.641,C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\Unit8.pas=C:\Users\rodrigo\Documents\Embarcadero\Studio\Projects\Trabalho\concorrentes.pas</Transaction>
+    <Transaction>2019/11/13 20:19:15.000.536,=C:\Users\FCV\Downloads\Trabalho\Unit3.pas</Transaction>
+    <Transaction>2019/11/13 20:20:39.000.600,C:\Users\FCV\Downloads\Trabalho\Unit3.pas=C:\Users\FCV\Downloads\Trabalho\DLL.pas</Transaction>
+    <Transaction>2019/11/18 12:53:29.000.129,=D:\Trabalho\FDQuery1.pas</Transaction>
+    <Transaction>2019/11/18 17:36:29.000.110,=D:\Trabalho\Unit3.pas</Transaction>
+    <Transaction>2019/11/18 17:46:51.000.780,D:\Trabalho\Unit3.pas=D:\Trabalho\TThread.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Arquivos.pas"/>
+    <File Path="Arquivos.dfm"/>
+    <File Path="Biblioteca.pas"/>
+    <File Path="Biblioteca.dfm"/>
+    <File Path="componentes.pas"/>
+    <File Path="componentes.dfm"/>
+    <File Path="concorrentes.pas"/>
+    <File Path="concorrentes.dfm"/>
+    <File Path="DLL.pas"/>
+    <File Path="trabalho.pas"/>
+    <File Path="trabalho.dfm"/>
+    <File Path="Unit1.pas"/>
+    <File Path="Unit1.dfm"/>
+    <File Path="Unit2.pas"/>
+    <File Path="Unit2.dfm"/>
+    <File Path="Unit4.pas"/>
+    <File Path="Unit4.dfm"/>
+    <File Path="FDQuery1.pas"/>
+  </ProjectSortOrder>
+</BorlandProject>

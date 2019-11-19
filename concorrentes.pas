@@ -1,0 +1,48 @@
+unit concorrentes;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ComCtrls;
+
+type
+  TForm8 = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    Button1: TButton;
+    Button2: TButton;
+    Edit3: TEdit;
+    Edit4: TEdit;
+    Label3: TLabel;
+    Label4: TLabel;
+    ProgressBar1: TProgressBar;
+    ProgressBar2: TProgressBar;
+    procedure Button2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+
+    { Public declarations }
+
+  end;
+
+var
+  Form8: TForm8;
+  i1: integer;
+  i2: integer;
+
+implementation
+
+{$R *.dfm}
+
+
+procedure TForm8.Button2Click(Sender: TObject);
+begin
+ProgressBar1.CleanupInstance;
+ProgressBar2.CleanupInstance;
+Close;
+end;
+
+end.

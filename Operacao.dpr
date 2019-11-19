@@ -1,0 +1,75 @@
+library Operacao;
+
+{ Important note about DLL memory management: ShareMem must be the
+  first unit in your library's USES clause AND your project's (select
+  Project-View Source) USES clause if your DLL exports any procedures or
+  functions that pass strings as parameters or function results. This
+  applies to all strings passed to and from your DLL--even those that
+  are nested in records and classes. ShareMem is the interface unit to
+  the BORLNDMM.DLL shared memory manager, which must be deployed along
+  with your DLL. To avoid using BORLNDMM.DLL, pass string information
+  using PChar or ShortString parameters. }
+
+uses
+  System.SysUtils,
+  System.Classes;
+
+{$R *.res}
+
+function AreaQ(B: integer): integer; stdcall;
+var
+  A: integer;
+begin
+  A := B * B;
+  Result := A;
+end;
+
+function PerimetroQ(B: integer): integer; stdcall;
+var
+  P: integer;
+begin
+  P := B * B * B * B;
+  Result := P;
+end;
+
+function AreaC(R: integer): integer; stdcall;
+var
+  A: Double;
+  PI: Double;
+  RR: Integer;
+begin
+  PI := 3.14;
+  A := (R * R) * PI;
+
+  RR := Round(A);
+  Result := RR;
+end;
+
+function PerimetroC(R: integer): integer; stdcall;
+var
+  P: Double;
+  PI : Double;
+  RR : Integer;
+begin
+PI := 3.14;
+  P := R * PI;
+
+  RR := Round(P);
+  Result := RR;
+end;
+
+exports
+  AreaQ;
+
+exports
+  PerimetroQ;
+
+exports
+  AreaC;
+
+exports
+  PerimetroC;
+
+begin
+
+end.

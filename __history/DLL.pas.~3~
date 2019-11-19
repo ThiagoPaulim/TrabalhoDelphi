@@ -1,0 +1,14 @@
+unit DLL;
+
+interface
+function AreaQ(B: double): double; stdcall;
+function PerimetroQ(B: double): double; stdcall;
+function AreaC(R: double): double; stdcall;
+function PerimetroC(R: double): double; stdcall;
+
+implementation
+function AreaQ; external 'Operacao.dll';
+function PerimetroQ; external 'Operacao.dll';
+function AreaC; external 'Operacao.dll';
+function PerimetroC; external 'Operacao.dll';
+end.

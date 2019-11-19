@@ -1,0 +1,28 @@
+unit Thread;
+
+interface
+uses Classes, Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ComCtrls, Vcl.ExtCtrls;
+
+type
+TCont = class(TThread)
+  protected
+    procedure Inicia; override;
+end;
+
+implementation
+
+uses concorrentes;
+
+procedure TThread.Inicia;
+var
+cont : integer;
+Sleep, Sleep1, Sleep2: integer;
+begin
+Priority := tpLower;
+Sleep1 := StrToInt(i1);
+Sleep1 := StrToInt(i2);
+
+end;
+
+end.
